@@ -25,8 +25,6 @@ if (isset($_POST['submit'])) {
             $mail->isSMTP();                                         // Set mailer to use SMTP
             $mail->Host = 'smtp.gmail.com';                      // Specify main SMTP server
             $mail->SMTPAuth = true;                                  // Enable SMTP authentication
-            $mail->Username = 'inbox2rupinder@gmail.com';                // SMTP username
-            $mail->Password = 'rbarkatpur@6543210';                       // SMTP password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;       // Enable TLS encryption
             $mail->Port = 587;                                       // TCP port to connect to
 
